@@ -3,14 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>M999 Game | Real Earning Game In Pakistan 2026</title>
-  <!-- Meta tag mein se <a> tag hata diya hai taake syntax break na ho -->
   <meta name="description" content="Learn about M999 Game in Pakistan, its online gaming experience, account features, responsible play considerations, and important tips for users in 2026.">
   <meta name="robots" content="index, follow">
   <meta name="author" content="M999 Game Guide">
 
   <style>
+    :root {
+      --bg-color: #0d1117;
+      --card-bg: #161b22;
+      --accent-color: #00ffcc;
+      --accent-gradient: linear-gradient(135deg, #00ffcc, #0099ff);
+      --text-main: #e6edf3;
+      --text-muted: #8b949e;
+      --border-color: #30363d;
+    }
+
     * {
       box-sizing: border-box;
       margin: 0;
@@ -18,95 +26,113 @@
     }
 
     body {
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f3f6fa;
-      color: #253247;
-      line-height: 1.8;
-      padding: 30px 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      line-height: 1.7;
+      padding: 40px 15px;
     }
 
     .container {
-      max-width: 900px;
+      max-width: 850px;
       margin: 0 auto;
-      background: #ffffff;
-      border: 1px solid #e2e8f0;
-      border-radius: 14px;
-      padding: 45px;
-      box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     }
 
     h1 {
-      color: #123b63;
-      font-size: 34px;
-      line-height: 1.25;
-      margin-bottom: 22px;
+      font-size: 32px;
+      font-weight: 800;
+      text-align: center;
+      background: var(--accent-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 25px;
     }
 
     h2 {
-      color: #1769aa;
-      font-size: 24px;
-      margin-top: 32px;
-      margin-bottom: 14px;
+      color: var(--accent-color);
+      font-size: 22px;
+      margin-top: 35px;
+      margin-bottom: 15px;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 8px;
     }
 
     p {
       margin-bottom: 18px;
+      color: var(--text-main);
       font-size: 16px;
     }
 
+    .intro {
+      background: rgba(0, 255, 204, 0.05);
+      border-left: 4px solid var(--accent-color);
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+
+    .btn-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .btn-link {
+      display: inline-block;
+      background: var(--accent-gradient);
+      color: #000;
+      font-weight: bold;
+      padding: 14px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 15px rgba(0, 255, 204, 0.3);
+    }
+
+    .btn-link:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0 25px rgba(0, 255, 204, 0.6);
+    }
+
     ul {
-      margin: 15px 0 20px 25px;
+      margin: 15px 0 25px 20px;
+      list-style-type: square;
     }
 
     li {
-      margin-bottom: 9px;
+      margin-bottom: 10px;
+      color: var(--text-muted);
     }
 
-    a {
-      color: #1769aa;
-      font-weight: 700;
+    li::marker {
+      color: var(--accent-color);
+    }
+
+    .inline-link {
+      color: var(--accent-color);
       text-decoration: none;
+      font-weight: 600;
+      border-bottom: 1px dashed var(--accent-color);
     }
 
-    a:hover {
-      text-decoration: underline;
+    .inline-link:hover {
+      color: #ffffff;
+      border-bottom-style: solid;
     }
 
-    .intro {
-      background: #eef6fc;
-      border-left: 4px solid #1769aa;
-      padding: 18px 20px;
-      border-radius: 8px;
-      margin-bottom: 25px;
-    }
-
-    .note {
-      background: #f8fafc;
-      border: 1px solid #e2e8f0;
-      padding: 18px 20px;
-      border-radius: 8px;
-      margin-top: 25px;
-    }
-
-    @media (max-width: 650px) {
-      body {
-        padding: 15px 10px;
-      }
-
+    @media (max-width: 600px) {
       .container {
-        padding: 28px 20px;
+        padding: 20px;
       }
-
       h1 {
-        font-size: 28px;
+        font-size: 24px;
       }
-
       h2 {
-        font-size: 21px;
-      }
-
-      p {
-        font-size: 15px;
+        font-size: 19px;
       }
     }
   </style>
@@ -119,43 +145,28 @@
 
       <div class="intro">
         <p>
-          <!-- LINK 1: Yahan pehla link lagaya hai -->
-          <a href="https://m999games.pk/" target="_blank" rel="noopener noreferrer">M999 Game</a> is a name increasingly associated with online gaming platforms
-          aimed at users in Pakistan. In 2026, people looking for mobile-friendly gaming services
-          often compare platforms according to usability, available game options, account features,
-          and the overall quality of the digital experience.
+          <a href="https://m999games.pk/" target="_blank" rel="noopener noreferrer" class="inline-link">M999 Game</a> is a name increasingly associated with online gaming platforms aimed at users in Pakistan. In 2026, people looking for mobile-friendly gaming services often compare platforms according to usability, available game options, account features, and the overall quality of the digital experience.
         </p>
       </div>
 
       <h2>Understanding M999 Game in Pakistan</h2>
 
       <p>
-        The <strong>M999</strong> platform is designed around convenient online access, allowing
-        users to explore its available gaming environment through compatible devices. Before
-        creating an account or using any online gaming service, users should understand how the
-        platform works, review its terms, and check the rules that apply in their location.
-        Claims about “real earning” should also be approached carefully because gaming outcomes
-        are not guaranteed sources of income.
+        The <strong>M999</strong> platform is designed around convenient online access, allowing users to explore its available gaming environment through compatible devices. Before creating an account or using any online gaming service, users should understand how the platform works, review its terms, and check the rules that apply in their location.
       </p>
 
-      <p>
-        For users who want to learn more about the platform, the official website
-        <!-- LINK 2: Yahan doosra link lagaya hai -->
-        <a href="https://m999games.pk/" target="_blank" rel="noopener noreferrer">M999 Game Official</a>
-        can be used as a starting point for checking current information, available features,
-        and access details. Visiting the relevant source directly can help users avoid outdated
-        information or unofficial pages.
-      </p>
+      <div class="btn-container">
+        <a href="https://m999games.pk/" target="_blank" rel="noopener noreferrer" class="btn-link">Visit Official M999 Game Site</a>
+      </div>
 
       <h2>What to Consider Before Playing</h2>
 
       <p>
-        A responsible approach is important when using any online gaming platform. Consider the
-        following points before participating:
+        A responsible approach is important when using any online gaming platform. Consider the following points before participating:
       </p>
 
       <ul>
-        <li>Review the platform's current terms and conditions.</li>
+        <li>Review the platform's current terms and conditions carefully.</li>
         <li>Use only information and payment methods you are comfortable managing.</li>
         <li>Set a clear entertainment budget and avoid spending beyond it.</li>
         <li>Do not treat gaming as a guaranteed way to earn money.</li>
@@ -165,11 +176,7 @@
       <h2>M999 Game: A Practical 2026 Overview</h2>
 
       <p>
-        Overall, M999 Game may appeal to users interested in an accessible online gaming
-        experience, but informed decisions remain important. Users should evaluate current
-        platform information independently, understand the risks involved, and play responsibly.
-        No gaming platform can guarantee consistent profits, so entertainment and responsible
-        usage should remain the priority.
+        Overall, M999 Game may appeal to users interested in an accessible online gaming experience, but informed decisions remain important. Users should evaluate current platform information independently, understand the risks involved, and play responsibly.
       </p>
     </article>
   </main>
