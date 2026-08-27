@@ -1,0 +1,66 @@
+export default {
+  async fetch(request, env, ctx) {
+    const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M999 Game | Real Earning Game In Pakistan 2026</title>
+  <meta name="description" content="Learn about M999 Game in Pakistan, its online gaming experience, account features, and important tips for users in 2026.">
+  <style>
+    :root { --bg-color: #0d1117; --card-bg: #161b22; --accent-color: #00ffcc; --accent-gradient: linear-gradient(135deg, #00ffcc, #0099ff); --text-main: #e6edf3; --text-muted: #8b949e; --border-color: #30363d; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg-color); color: var(--text-main); line-height: 1.7; padding: 40px 15px; }
+    .container { max-width: 850px; margin: 0 auto; background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 40px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); }
+    h1 { font-size: 32px; font-weight: 800; text-align: center; background: var(--accent-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 25px; }
+    h2 { color: var(--accent-color); font-size: 22px; margin-top: 35px; margin-bottom: 15px; border-bottom: 1px solid var(--border-color); padding-bottom: 8px; }
+    p { margin-bottom: 18px; color: var(--text-main); font-size: 16px; }
+    .intro { background: rgba(0, 255, 204, 0.05); border-left: 4px solid var(--accent-color); padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+    .btn-container { text-align: center; margin: 30px 0; }
+    .btn-link { display: inline-block; background: var(--accent-gradient); color: #000; font-weight: bold; padding: 14px 28px; border-radius: 30px; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 0 15px rgba(0, 255, 204, 0.3); }
+    .btn-link:hover { transform: translateY(-2px); box-shadow: 0 0 25px rgba(0, 255, 204, 0.6); }
+    ul { margin: 15px 0 25px 20px; list-style-type: square; }
+    li { margin-bottom: 10px; color: var(--text-muted); }
+    li::marker { color: var(--accent-color); }
+    .inline-link { color: var(--accent-color); text-decoration: none; font-weight: 700; border-bottom: 1px dashed var(--accent-color); transition: all 0.2s ease; }
+    .inline-link:hover { color: #ffffff; border-bottom-style: solid; }
+    .official-footer { margin-top: 40px; padding-top: 20px; border-top: 1px dashed var(--border-color); font-size: 14px; color: var(--text-muted); text-align: center; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <article>
+      <h1>M999 Game | Real Earning Game In Pakistan 2026</h1>
+      <div class="intro">
+        <p>
+          <a href="https://m999games.pk/" target="_blank" rel="noopener noreferrer" class="inline-link">M999 Game</a> is a name increasingly associated with online gaming platforms aimed at users in Pakistan.
+        </p>
+      </div>
+      <h2>Understanding M999 Game in Pakistan</h2>
+      <p>
+        The <a href="https://m999games.pk/" target="_blank" rel="noopener noreferrer" class="inline-link">M999</a> platform is designed around convenient online access.
+      </p>
+      <div class="btn-container">
+        <a href="https://m999games.pk/" target="_blank" rel="noopener noreferrer" class="btn-link">Visit Official M999 Game Site</a>
+      </div>
+      <h2>What to Consider Before Playing</h2>
+      <ul>
+        <li>Review the platform's current terms and conditions carefully.</li>
+        <li>Set a clear entertainment budget and avoid spending beyond it.</li>
+        <li>Do not treat gaming as a guaranteed way to earn money.</li>
+      </ul>
+      <footer class="official-footer">
+        <p>
+          For official game access and updates, visit <a href="https://m999games.pk/" target="_blank" rel="noopener noreferrer" class="inline-link">M999 Game Official</a>.
+        </p>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>`;
+
+    return new Response(html, {
+      headers: { 'content-type': 'text/html;charset=UTF-8' },
+    });
+  },
+};
